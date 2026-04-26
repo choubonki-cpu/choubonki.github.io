@@ -4,128 +4,176 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CHU FANQI Portfolio</title>
-  <link rel="stylesheet" href="./style.css?v=4">
+  <link rel="stylesheet" href="./style.css?v=10">
 </head>
 
 <body>
-  <header class="nav">
-    <div class="logo">CHU FANQI</div>
-    <nav>
+  <header class="site-header">
+    <div class="header-logo">CHU FANQI</div>
+
+    <nav class="header-nav">
       <a href="#about">About</a>
       <a href="#research">Research</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-text">
-        <p class="label">Japanese Painting × AI × Cultural Heritage</p>
+    <section class="hero-section">
+      <div class="hero-content">
+        <p class="eyebrow">Japanese Painting × AI × Cultural Heritage</p>
 
         <h1>
           AIと文化財修復をつなぐ、<br>
           学際的な研究者。
         </h1>
 
-        <p class="lead">
-          日本画・文化財保存の専門性を基盤に、現在はJAISTでAI、データサイエンス、
-          画像生成技術を学び、文化財のデジタル修復支援に関する研究に取り組んでいます。
+        <p class="hero-description">
+          日本画と文化財保存の専門性を基盤に、現在は北陸先端科学技術大学院大学
+          にてAI、データサイエンス、画像生成技術を学び、装潢絵画文化財の
+          デジタル修復支援に関する研究に取り組んでいます。
         </p>
 
-        <div class="hero-buttons">
-          <a href="#research" class="btn primary">View Research</a>
-          <a href="#experience" class="btn secondary">View Experience</a>
+        <div class="hero-actions">
+          <a href="#research" class="button button-primary">View Research</a>
+          <a href="#experience" class="button button-secondary">View Experience</a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <span class="meta-number">AI</span>
+            <span class="meta-label">Image Generation</span>
+          </div>
+          <div>
+            <span class="meta-number">Art</span>
+            <span class="meta-label">Japanese Painting</span>
+          </div>
+          <div>
+            <span class="meta-number">Heritage</span>
+            <span class="meta-label">Restoration Support</span>
+          </div>
         </div>
       </div>
 
-      <div class="avatar-container">
-        <div class="avatar-glow"></div>
+      <div class="portrait-area">
+        <div class="portrait-glow"></div>
 
-        <div class="avatar-card">
-          <img src="./image.png" alt="CHU FANQI">
+        <div class="portrait-frame">
+          <img src="./image.png" alt="Portrait of CHU FANQI">
         </div>
 
-        <div class="floating-card card-one">
-          <span>Research</span>
+        <div class="floating-badge badge-top">
+          <span>Current Focus</span>
           <strong>AI Restoration</strong>
         </div>
 
-        <div class="floating-card card-two">
+        <div class="floating-badge badge-bottom">
           <span>Background</span>
           <strong>Japanese Painting</strong>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section glass-section">
-      <p class="section-label">About Me</p>
+    <section id="about" class="section glass-panel">
+      <p class="section-kicker">About Me</p>
       <h2>Art, Technology, and Cultural Heritage</h2>
+
       <p>
-        武蔵野美術大学で日本画を専攻し、保存科学、博物館情報メディア、考古学、
-        デザインなどを学びました。現在は北陸先端科学技術大学院大学にて、
-        知識科学・AI・データ分析を中心に研究しています。
+        武蔵野美術大学で日本画を専攻し、保存科学、博物館情報メディア、
+        デザイン、考古学などを学びました。現在はJAISTにて知識科学を専攻し、
+        AI、統計、データ分析、コンピュータシステムを中心に学習しています。
+      </p>
+
+      <p>
+        芸術・文化財保存の視点と情報科学の方法論を組み合わせ、文化財修復を
+        支援する新しいデジタル技術の可能性を探究しています。
       </p>
     </section>
 
     <section id="research" class="section">
-      <p class="section-label">Research Focus</p>
+      <p class="section-kicker">Research Focus</p>
       <h2>Research Areas</h2>
 
-      <div class="grid">
-        <div class="card">
+      <div class="research-grid">
+        <article class="research-card">
+          <div class="card-index">01</div>
           <h3>Image Generation AI</h3>
           <p>
-            GANやDiffusion Modelを用いた画像生成・欠失部補完の応用を検討しています。
+            GANやDiffusion Modelを用いて、絵画画像の欠失部補完や視覚的再構成を
+            支援する方法を検討しています。
           </p>
-        </div>
+        </article>
 
-        <div class="card">
+        <article class="research-card">
+          <div class="card-index">02</div>
           <h3>Cultural Heritage Restoration</h3>
           <p>
-            装潢絵画文化財の保存・復元支援を目的としたAI活用を研究しています。
+            装潢絵画文化財を対象に、現代の修復理念を尊重しながら、
+            AIによる保存・復元支援の可能性を研究しています。
           </p>
-        </div>
+        </article>
 
-        <div class="card">
+        <article class="research-card">
+          <div class="card-index">03</div>
           <h3>Computer Vision</h3>
           <p>
-            画像分類、特徴抽出、画像分割、構造推定などの技術を応用しています。
+            画像分類、特徴抽出、画像分割、構造推定を活用し、
+            文化財画像の分析と生成モデルへの条件入力を検討しています。
           </p>
-        </div>
+        </article>
       </div>
     </section>
 
-    <section id="experience" class="section glass-section">
-      <p class="section-label">Experience</p>
-      <h2>Education & Experience</h2>
+    <section id="experience" class="section glass-panel">
+      <p class="section-kicker">Experience</p>
+      <h2>Education & Professional Experience</h2>
 
       <div class="timeline">
-        <div class="item">
-          <span>2025 - Present</span>
-          <h3>JAIST / M.S. in Knowledge Science</h3>
-          <p>AI、統計、データサイエンス、コンピュータシステムを中心に学習。</p>
+        <div class="timeline-item">
+          <span class="timeline-year">2025 - Present</span>
+          <h3>Japan Advanced Institute of Science and Technology</h3>
+          <p>
+            M.S. in Knowledge Science. AI、統計、データサイエンス、
+            コンピュータシステムを中心に学習。
+          </p>
         </div>
 
-        <div class="item">
-          <span>2024</span>
-          <h3>National Museum of Ethnology / Internship</h3>
-          <p>展示企画、文化財保存、資料デジタル化、博物館情報発信を経験。</p>
+        <div class="timeline-item">
+          <span class="timeline-year">2025</span>
+          <h3>Tohoku University</h3>
+          <p>
+            建築・都市計画・防災・建築史に関する研究生経験を通じて、
+            文化財や空間情報への関心を広げました。
+          </p>
         </div>
 
-        <div class="item">
-          <span>2021 - 2025</span>
-          <h3>Musashino Art University / Japanese Painting</h3>
-          <p>日本画、保存科学、デザイン、技法材料、文化財に関する基礎を修得。</p>
+        <div class="timeline-item">
+          <span class="timeline-year">2024</span>
+          <h3>National Museum of Ethnology</h3>
+          <p>
+            展示企画、保存理論、資料データ管理、デジタル化、
+            博物館情報発信に関する実務を経験。
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-year">2021 - 2025</span>
+          <h3>Musashino Art University</h3>
+          <p>
+            B.S. in Fine Art, Japanese Painting. 日本画、保存科学、
+            技法材料、博物館情報メディアを学習。
+          </p>
         </div>
       </div>
     </section>
 
     <section id="skills" class="section">
-      <p class="section-label">Skills</p>
+      <p class="section-kicker">Skills</p>
       <h2>Technical & Creative Skills</h2>
 
-      <div class="skills">
+      <div class="skill-cloud">
         <span>Python</span>
         <span>PyTorch</span>
         <span>Hugging Face</span>
@@ -134,14 +182,30 @@
         <span>JavaScript</span>
         <span>R</span>
         <span>Computer Vision</span>
+        <span>Image Generation</span>
         <span>Japanese Painting</span>
         <span>Cultural Heritage</span>
+        <span>Museum Informatics</span>
       </div>
+    </section>
+
+    <section id="contact" class="section contact-section glass-panel">
+      <p class="section-kicker">Contact</p>
+      <h2>Let’s Connect</h2>
+
+      <p>
+        AI、文化財修復、画像生成、博物館情報、デジタルアーカイブに関する
+        研究・開発に関心があります。
+      </p>
+
+      <a href="mailto:choubonki@gmail.com" class="button button-primary">
+        Contact Me
+      </a>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 CHU FANQI Portfolio</p>
+  <footer class="site-footer">
+    <p>© 2026 CHU FANQI. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
