@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CHU FANQI HP</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <h1 id="name">CHU FANQI</h1>
+
+        <h2 id="self-introduction">
+            こんにちは、チョウ ボンキと申します。<br>
+            日本画学部から卒業しました。
+        </h2>
+
+        <h3>
+            出身は中国南京です。<br>
+            今、石川県能美市に住んでいます。<br>
+            アイスが好きですが、よく風邪を引くのであまり食べられません。
+        </h3>
+
+        <hr>
+
+        <img src="./src/jaileon.png" width="300" alt="jaileon">
+
+        <hr>
+
+        <h3>私の趣味</h3>
+        <ul>
+            <li class="hobby" id="drawing">絵を描くこと</li>
+            <li class="hobby" id="anime">アニメを見ること</li>
+            <li class="hobby" id="plush">ぬいぐるみを集めること</li>
+        </ul>
+
+        <hr>
+
+        <a href="./course.html">履修授業を見る</a>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
