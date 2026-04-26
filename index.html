@@ -4,33 +4,144 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CHU FANQI Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css?v=4">
 </head>
 
 <body>
-  <main class="card">
-    <section class="profile">
-      <img src="image.jpg" alt="CHU FANQI" class="profile-img">
+  <header class="nav">
+    <div class="logo">CHU FANQI</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
 
-      <div class="profile-text">
-        <p class="tag">Japanese Painting × AI × Cultural Heritage</p>
-        <h1>CHU FANQI</h1>
-        <h2>Graduate Student / Researcher</h2>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="label">Japanese Painting × AI × Cultural Heritage</p>
 
-        <p class="intro">
-          武蔵野美術大学で日本画を学び、現在は北陸先端科学技術大学院大学にて、
-          AI・データサイエンス・文化財修復に関する研究に取り組んでいる。
+        <h1>
+          AIと文化財修復をつなぐ、<br>
+          学際的な研究者。
+        </h1>
+
+        <p class="lead">
+          日本画・文化財保存の専門性を基盤に、現在はJAISTでAI、データサイエンス、
+          画像生成技術を学び、文化財のデジタル修復支援に関する研究に取り組んでいます。
         </p>
 
-        <div class="info">
-          <span>JAIST</span>
-          <span>Knowledge Science</span>
-          <span>AI Research</span>
+        <div class="hero-buttons">
+          <a href="#research" class="btn primary">View Research</a>
+          <a href="#experience" class="btn secondary">View Experience</a>
+        </div>
+      </div>
+
+      <div class="avatar-container">
+        <div class="avatar-glow"></div>
+
+        <div class="avatar-card">
+          <img src="./image.png" alt="CHU FANQI">
         </div>
 
-        <a href="#" class="button">View Profile</a>
+        <div class="floating-card card-one">
+          <span>Research</span>
+          <strong>AI Restoration</strong>
+        </div>
+
+        <div class="floating-card card-two">
+          <span>Background</span>
+          <strong>Japanese Painting</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section glass-section">
+      <p class="section-label">About Me</p>
+      <h2>Art, Technology, and Cultural Heritage</h2>
+      <p>
+        武蔵野美術大学で日本画を専攻し、保存科学、博物館情報メディア、考古学、
+        デザインなどを学びました。現在は北陸先端科学技術大学院大学にて、
+        知識科学・AI・データ分析を中心に研究しています。
+      </p>
+    </section>
+
+    <section id="research" class="section">
+      <p class="section-label">Research Focus</p>
+      <h2>Research Areas</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Image Generation AI</h3>
+          <p>
+            GANやDiffusion Modelを用いた画像生成・欠失部補完の応用を検討しています。
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Cultural Heritage Restoration</h3>
+          <p>
+            装潢絵画文化財の保存・復元支援を目的としたAI活用を研究しています。
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Computer Vision</h3>
+          <p>
+            画像分類、特徴抽出、画像分割、構造推定などの技術を応用しています。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section glass-section">
+      <p class="section-label">Experience</p>
+      <h2>Education & Experience</h2>
+
+      <div class="timeline">
+        <div class="item">
+          <span>2025 - Present</span>
+          <h3>JAIST / M.S. in Knowledge Science</h3>
+          <p>AI、統計、データサイエンス、コンピュータシステムを中心に学習。</p>
+        </div>
+
+        <div class="item">
+          <span>2024</span>
+          <h3>National Museum of Ethnology / Internship</h3>
+          <p>展示企画、文化財保存、資料デジタル化、博物館情報発信を経験。</p>
+        </div>
+
+        <div class="item">
+          <span>2021 - 2025</span>
+          <h3>Musashino Art University / Japanese Painting</h3>
+          <p>日本画、保存科学、デザイン、技法材料、文化財に関する基礎を修得。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section-label">Skills</p>
+      <h2>Technical & Creative Skills</h2>
+
+      <div class="skills">
+        <span>Python</span>
+        <span>PyTorch</span>
+        <span>Hugging Face</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>R</span>
+        <span>Computer Vision</span>
+        <span>Japanese Painting</span>
+        <span>Cultural Heritage</span>
       </div>
     </section>
   </main>
+
+  <footer>
+    <p>© 2026 CHU FANQI Portfolio</p>
+  </footer>
 </body>
 </html>
