@@ -1,23 +1,129 @@
-#name {
-    background-color: lightblue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#self-introduction {
-    font-size: 1.2rem;
+body {
+  min-height: 100vh;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, #fff1f6, transparent 35%),
+    linear-gradient(135deg, #fff7fa, #f6dbe5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2b2024;
 }
 
-.hobby {
-    font-size: 1.1rem;
+.card {
+  width: 88%;
+  max-width: 1050px;
+  padding: 48px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 36px;
+  box-shadow: 0 30px 80px rgba(170, 95, 120, 0.22);
 }
 
-#drawing {
-    color: rgb(119, 70, 255);
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 56px;
 }
 
-#anime {
-    color: rgb(75, 123, 255);
+.profile-img {
+  width: 330px;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 24px 60px rgba(110, 55, 75, 0.25);
 }
 
-#plush {
-    color: rgb(68, 226, 176);
+.tag {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #f8dce7;
+  color: #9a4f68;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 58px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #8b5d6b;
+  margin-bottom: 28px;
+}
+
+.intro {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #4a3a40;
+  max-width: 540px;
+  margin-bottom: 30px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.info span {
+  padding: 10px 16px;
+  border-radius: 14px;
+  background: rgba(255, 235, 242, 0.9);
+  color: #7e4557;
+  font-size: 14px;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 34px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #d98aa5, #b96d86);
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  box-shadow: 0 14px 30px rgba(185, 109, 134, 0.35);
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 38px rgba(185, 109, 134, 0.45);
+}
+
+@media (max-width: 850px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 260px;
+    height: 340px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .info {
+    justify-content: center;
+  }
 }
